@@ -42,4 +42,7 @@
 .font-adn-brand {
   font-family: 'Swei Bone Sans', system-ui, sans-serif;
   letter-spacing: 0.06em;
+  display: inline-block;
+  transform: scaleY(1.12);
+  transform-origin: center;
 }
