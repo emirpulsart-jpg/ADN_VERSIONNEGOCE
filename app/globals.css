@@ -41,7 +41,5 @@
 
 .font-adn-brand {
   font-family: 'Swei Bone Sans', system-ui, sans-serif;
-  display: inline-block;
-  transform: scaleY(0.78);
-  transform-origin: center;
+  letter-spacing: 0.06em;
 }

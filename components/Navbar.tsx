@@ -103,7 +103,7 @@ export default function Navbar() {
                 alt="ADN"
                 className="h-8 w-auto object-contain bg-transparent transition-all duration-300 lg:h-9"
               />
-              <span className="font-adn-brand text-[8px] uppercase tracking-[0.16em] font-medium leading-none text-black lg:text-[9px] lg:tracking-[0.18em]">
+              <span className="font-adn-brand text-[8px] uppercase font-medium leading-none text-black lg:text-[9px]">
                 ADN FINANCE SA
               </span>
             </div>
