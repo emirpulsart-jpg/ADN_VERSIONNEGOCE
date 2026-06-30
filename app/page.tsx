@@ -506,7 +506,7 @@ export default function HomePage() {
                 <p>
                   Cette indépendance nous permet de sélectionner les opportunités les plus d&apos;avenir sans contrainte commerciale ni préférence institutionnelle, dans le respect d&apos;un seul engagement : défendre les intérêts patrimoniaux de nos clients avec rigueur et transparence.
                 </p>
-                <div className="space-y-2 pt-2">
+                <div className="space-y-2 mt-8 pt-1">
                   <p className="font-semibold text-slate-600">
                     Risques particuliers dans le négoce des titres
                   </p>
