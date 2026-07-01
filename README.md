@@ -1,20 +1,49 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# ADN Finance SA — Site web
 
-# Run and deploy your AI Studio app
+Site institutionnel du cabinet ADN Finance SA (Genève) : gestion de fortune, conseils financiers et présentation réglementaire.
 
-This contains everything you need to run your app locally.
+## Stack
 
-View your app in AI Studio: https://ai.studio/apps/2e93e26f-419e-4ae2-92cf-72bfcd0838ae
+- [Next.js 15](https://nextjs.org/) (App Router)
+- React 19
+- TypeScript
+- Tailwind CSS 4
 
-## Run Locally
+## Prérequis
 
-**Prerequisites:**  Node.js
+- Node.js 20 LTS ou supérieur
+- npm 10+
 
+## Installation
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+```bash
+npm install
+```
+
+## Développement
+
+```bash
+npm run dev
+```
+
+Application disponible sur [http://localhost:3000](http://localhost:3000).
+
+## Production
+
+```bash
+npm run build
+npm start
+```
+
+## Structure
+
+```
+app/           Pages et layouts (App Router)
+components/    Composants partagés (navigation, simulateur, etc.)
+public/        Assets statiques (images, polices, vidéos)
+lib/           Utilitaires
+```
+
+## Licence
+
+Propriété d'ADN Finance SA. Tous droits réservés.

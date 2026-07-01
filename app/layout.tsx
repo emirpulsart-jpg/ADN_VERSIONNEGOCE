@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { Inter, Cormorant_Garamond, JetBrains_Mono } from 'next/font/google';
-import './globals.css'; // Global styles
+import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
 import ScrollToTop from '@/components/ScrollToTop';

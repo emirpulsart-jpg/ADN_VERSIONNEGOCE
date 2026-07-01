@@ -296,7 +296,7 @@ export default function PatrimoineSimulator() {
       {/* Left controls panel */}
       <div className="lg:col-span-5 bg-white border border-slate-150 p-6 sm:p-8 space-y-8 shadow-xs">
         
-        {/* iOS style select dropdown */}
+        {/* Sélection de l'actif */}
         <div className="space-y-4">
           <label className="font-sans text-xs font-bold uppercase tracking-wider text-swiss-navy block">
             Sélectionner l&apos;actif de comparaison

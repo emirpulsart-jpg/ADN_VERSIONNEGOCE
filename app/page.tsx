@@ -425,7 +425,7 @@ export default function HomePage() {
   return (
     <div className="flex flex-col bg-white" id="adn-homepage">
       
-      {/* 0. IMMERSIVE VIDEO BUCKET SECTION - ALWAYS FIRST, NO TEXT, FULLSCREEN COVERAGE */}
+      {/* Vidéo d'accueil */}
       <section className="relative w-full bg-swiss-navy lg:h-screen lg:overflow-hidden" id="top-immersive-video">
         {/* Vidéo plein écran pour grands écrans (desktop) */}
         <video
@@ -450,7 +450,7 @@ export default function HomePage() {
         </video>
       </section>
 
-      {/* 1. SOBER, ELITE HERO SECTION IN SWISS BLUE & DEEP NAVY */}
+      {/* En-tête */}
       <section className="relative overflow-hidden py-24 sm:py-32 border-b border-gray-100 bg-gradient-to-b from-slate-50 via-white to-white" id="hero-adn">
         <div className="absolute inset-0 bg-[linear-gradient(to_right,#1e40af05_1px,transparent_1px),linear-gradient(to_bottom,#1e40af05_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)]"></div>
         
@@ -481,7 +481,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 2. UNE TRANSPARENCE TOTALE SECTION & INTERACTIVE SCHEMA */}
+      {/* Transparence & schéma d'architecture */}
       <section className="bg-white py-24 border-b border-gray-100 scroll-mt-24" id="transparence-totale">
         <div className="mx-auto max-w-6xl px-6 lg:px-12">
           
@@ -633,7 +633,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 3. À PROPOS DE NOUS STATS COUNTER SECTION */}
+      {/* À propos */}
       <section className="bg-slate-50 py-20 border-b border-gray-100" id="a-propos">
         <div className="mx-auto max-w-5xl px-6 lg:px-8">
           
@@ -684,7 +684,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 4. NOS SERVICES DE GESTION S&apos;ADAPTENT AUX CLIENTS */}
+      {/* Services */}
       <section className="bg-white py-24 border-b border-gray-100" id="nos-services">
         <div className="mx-auto max-w-5xl px-6 lg:px-8">
           
@@ -759,7 +759,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 5. SIMULATOR INTEGRATED COMPONENT */}
+      {/* Simulateur */}
       <section className="bg-slate-50 py-24 border-b border-gray-100" id="simulateur-integre">
         <div className="mx-auto max-w-6xl px-6 lg:px-12">
           
@@ -783,7 +783,7 @@ export default function HomePage() {
             {/* Left controls panel */}
             <div className="lg:col-span-5 bg-white border border-slate-150 p-6 sm:p-8 space-y-8 shadow-xs">
               
-              {/* iOS style select dropdown */}
+              {/* Sélection de l'actif */}
               <div className="space-y-4">
                 <label className="font-sans text-xs font-bold uppercase tracking-wider text-swiss-navy block">
                   Sélectionner l&apos;actif de comparaison
@@ -860,7 +860,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 6. QUESTIONS FRÉQUENTES (FAQ ACCORDION) */}
+      {/* FAQ */}
       <section className="bg-white py-24 border-b border-gray-100" id="foire-aux-questions">
         <div className="mx-auto max-w-4xl px-6 lg:px-8">
           
@@ -889,7 +889,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* 7. PRESTIGIOUS HIGH-CONVERSION CTA SECTION */}
+      {/* Appel à l'action */}
       <section className="bg-white py-20" id="final-call-to-action">
         <div className="mx-auto max-w-4xl px-6 lg:px-8 animate-fade-in">
           <div className="bg-swiss-navy text-white p-8 sm:p-14 text-center relative overflow-hidden">
