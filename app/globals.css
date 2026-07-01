@@ -42,6 +42,10 @@
 .font-adn-brand-logo {
   font-family: 'Swei Bone Sans', system-ui, sans-serif;
   letter-spacing: 0.06em;
+  font-weight: 500;
+  font-synthesis: weight;
+  -webkit-text-stroke: 0.2px currentColor;
+  paint-order: stroke fill;
   display: inline-block;
   transform: scaleY(1.38);
   transform-origin: center;

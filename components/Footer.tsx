@@ -30,7 +30,7 @@ export default function Footer() {
                 alt="ADN"
                 className="h-9 w-auto object-contain bg-transparent brightness-0 invert"
               />
-              <span className="font-adn-brand-logo text-[9px] uppercase font-medium leading-none text-white">
+              <span className="font-adn-brand-logo text-[9px] uppercase leading-none text-white">
                 ADN FINANCE SA
               </span>
             </div>
