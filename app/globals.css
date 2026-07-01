@@ -39,7 +39,15 @@
   font-display: swap;
 }
 
-.font-adn-brand {
+.font-adn-brand-logo {
+  font-family: 'Swei Bone Sans', system-ui, sans-serif;
+  letter-spacing: 0.06em;
+  display: inline-block;
+  transform: scaleY(1.38);
+  transform-origin: center;
+}
+
+.font-adn-brand-diagram {
   font-family: 'Swei Bone Sans', system-ui, sans-serif;
   letter-spacing: 0.06em;
   display: inline-block;
